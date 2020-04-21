@@ -1,14 +1,20 @@
 var express = require('express');
 var app = express();
 app.get('/', function (req, res) {
+  var strP = '<br>';
+  var tmpStr =''
+  var q = req.query;
+  for (var a in q){
+    tmpStr = 'Parametr w url: ' + a + ' wartość: ' + q[a];
+    console.log(tmpStr);
+    strP += '<br>' + tmpStr
+  }
   res.send('Hello World! on Heroku platform :) ' +
-  '<BR>Deploy from Github <b>piotrektekkno/herokuNodeJS </b>');
-  console.log('GET');
-  console.log('Paramety w url: ');
-    var q = req.query;
-    for (var a in q){
-      console.log('Parametr: ' + a + ' wartość: ' +q[a]  );
-    }
+  '<br>Deploy from Github <b>piotrektekkno/herokuNodeJS </b>' +
+  strP
+  
+  );
+
 
 });
 app.listen(process.env.PORT || 3000, function(){
