@@ -11,9 +11,7 @@ app.get('/', function (req, res) {
   }
   res.send('Hello World! on Heroku platform :) ' +
   '<br>Deploy from Github <b>piotrektekkno/herokuNodeJS </b>' +
-  strP
-  
-  );
+  strP);
 
 
 });
