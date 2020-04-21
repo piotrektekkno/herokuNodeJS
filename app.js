@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
     strP += '<br>' + tmpStr
   }
   res.send('Hello World! on Heroku platform :) ' +
-  '<br>Deploy from Github <b>piotrektekkno/herokuNodeJS </b>' +
+  '<br>Deploy from Github details: <b>piotrektekkno/herokuNodeJS </b>' +
   strP);
 
 
