@@ -9,8 +9,8 @@ app.get('/', function (req, res) {
     console.log(tmpStr);
     strP += '<br>' + tmpStr
   }
-  res.send('Hello World! on Heroku platform :) ' +
-  '<br>Deploy from Github details: <b>piotrektekkno/herokuNodeJS </b>' +
+  res.send('Metoda premiowania działa... niestety nie możemy zdradzić więcej informacji :) ' +
+  '<br><b>Potrawy Wigilijne były idealne - odpowiają ideałowi osobowości :)</b>' +
   strP);
 
 
