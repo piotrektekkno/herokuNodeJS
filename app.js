@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
     strP += '<br>' + tmpStr
   }
   res.send('Metoda premiowania działa... niestety nie możemy zdradzić więcej informacji :) ' +
-  '<br><b>Potrawy Wigilijne były idealne - odpowiają ideałowi osobowości :)</b>' +
+  '<br><b>Potrawy Wigilijne były idealne -  w pełni odpowiają ideałowi osobowości :)</b>' +
   strP);
 
 
