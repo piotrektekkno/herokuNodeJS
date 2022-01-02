@@ -11,6 +11,8 @@ app.get('/', function (req, res) {
   }
   res.send('Metoda premiowania działa... niestety nie możemy zdradzić więcej informacji :) ' +
   '<br><b>Potrawy Wigilijne były idealne -  w pełni odpowiają ideałowi osobowości :)</b>' +
+  '<br><b>Dokuczanie jak najbardziej wskazane...</b>' +
+  '<br><b>Gwałt TAK X 3 (co najmniej)</b>' +
   strP);
 
 
